@@ -1,0 +1,105 @@
+.details
+    &__subtitle
+        max-width: 444px
+        font-size: 18px
+        margin: 0 auto
+    &__main
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__form
+        margin-top: 165px
+        width: 435px
+        height: 640px
+        background-color: var(--color-white)
+        border-radius: 10px
+        box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.1)
+    &-form
+        position: relative
+        &_one
+            position: absolute
+            width: 100px
+            height: 100px
+            top: -100px
+            left: 35%
+            border-top-left-radius: 50%
+            border-top-right-radius: 50%
+            background-color: var(--color-white)
+            &::before
+                content: ''
+                position: absolute
+                width: 60px
+                height: 60px
+                bottom: 0
+                left: -60%
+                border-bottom-right-radius: 60px
+                box-shadow: 11px 15px 0 11px var(--color-white)
+            &::after
+                content: ''
+                position: absolute
+                width: 60px
+                height: 60px
+                bottom: 0
+                right: -60%
+                border-bottom-left-radius: 60px
+                box-shadow: -11px 15px 0 11px var(--color-white)
+            &-box
+                position: absolute
+                width: 63px
+                height: 63px
+                top: 20%
+                left: 50%
+                transform: translateX(-50%)
+                border: 2px solid rgb(74, 96, 122)
+                border-radius: 60px
+                text-align: center
+                font-size: 40px
+                z-index: 1
+        &_two
+            position: absolute
+            width: 100px
+            height: 90px
+            top: -90px
+            left: 65%
+            border-top-left-radius: 50%
+            border-top-right-radius: 50%
+            background-color: var(--color-white)
+            z-index: -1
+            &::before
+                content: ''
+                position: absolute
+                width: 60px
+                height: 45px
+                bottom: 0
+                left: -60%
+                border-bottom-right-radius: 60px
+                box-shadow: 11px 15px 0 11px var(--color-white)
+            &::after
+                content: ''
+                position: absolute
+                width: 40px
+                height: 40px
+                bottom: 0
+                right: -40%
+                border-bottom-left-radius: 60px
+                box-shadow: -11px 15px 0 11px var(--color-white)
+    &__submit
+        display: flex
+        flex-direction: column
+        position: relative
+        padding: 60px 35px
+        input
+            width: 365px
+            height: 50px
+            margin-bottom: 50px
+            border-radius: 10px
+            box-shadow: -2px -2px 5px 0px rgba(20, 29, 61, 0.15),2px 2px 5px 0px rgba(20, 29, 61, 0.15)
+            background: var(--color-white)
+            border: none
+            padding: 17px 25px
+    &__button
+        display: flex
+        justify-content: center
+        align-items: center
+        column-gap: 35px
+        margin-top: 35px

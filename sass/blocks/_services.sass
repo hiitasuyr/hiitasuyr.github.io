@@ -1,0 +1,56 @@
+.services
+    &-main
+        display: flex
+        justify-content: space-between
+    &__title
+        margin-bottom: 48px
+        color: var(--color-black)
+        font-size: 48px
+        text-align: center
+    &-pack
+        &_top
+            padding: 48px 16px
+            max-width: 365px
+            min-height: 169px
+            border-radius: 10px
+            background: rgb(74, 96, 122)
+            color: var(--color-white)
+            font-size: 24px
+            text-align: center
+        &_bottom
+            max-width: 365px
+            min-height: 800px
+            position: relative
+            top: -44px
+            padding: 43px 40px 33px 70px
+            border-radius: 10px
+            background: var(--color-white)
+        &_items
+            position: relative
+            margin-bottom: 15px
+            &::before
+                content: ''
+                position: absolute
+                width: 14px
+                height: 2px
+                background-color: var(--color-black)
+                left: -24px
+                top: 9px
+        &_dropdown
+            padding-left: 34px
+        &_drop
+            position: relative
+            margin-top: 10px
+            &::before
+                content: ''
+                position: absolute
+                width: 6px
+                height: 6px
+                border-radius: 50%
+                left: -15px
+                top: 7px
+                background-color: var(--color-black)
+            span
+                display: block
+                margin-top: 10px
+                font-weight: 600
