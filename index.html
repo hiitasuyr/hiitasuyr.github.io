@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <a href="#" class="header__logo">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-items">
+                        <a href="#"">Главная</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a href="#">Помощь</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a href="#" class="header__navigation-items_city">Санкт-Петербург</a>
+                    </li>
+                    <li class="header__navigation-items">
+                        <a href="tel:+74959671301" class="header__navigation-items_number">+7 495 967 13 01</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__profile">
+                <a href="#"">Личный кабинет</a>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="insurance container">
+            <div class="insurance__program">
+                <h1 class="insurance__program-title">Страховая программе <span>защита+</span></h1>
+                <div class="insurance__program-text">Одна из самых удобных и выгодных страховых программ предоставляемых грожанам России и иностранным гражданам. </div>
+                <button type="button" class="button button-insurance">Купить</button>
+            </div>
+            <img src="img/person.png" alt="Person" class="insurance__img">
+        </section>
+        <section class="about container">
+            <h2 class="about__title">О страховании</h2>
+            <ul class="about__list">
+                <li class="about__items">
+                    <div class="about__block">
+                        <div class="about__block-top">без ограничений</div>
+                        <div class="about__block-bottom">
+                            <img src="icons/24hours.svg" alt="24/7">
+                            Обращения к доктору 24/7
+                        </div>
+                    </div>
+                </li>
+                <li class="about__items">
+                    <div class="about__block">
+                        <div class="about__block-top">без ограничений</div>
+                        <div class="about__block-bottom">
+                            <img src="icons/calendar.svg" alt="24/7">
+                            Обращения к врачам-специалистам
+                        </div>
+                    </div>
+                </li>
+                <li class="about__items">
+                    <div class="about__block">
+                        <div class="about__block-top">24/7</div>
+                        <div class="about__block-bottom">
+                            <img src="icons/phone.svg" alt="24/7">
+                            Защита от несчастного случая + медицинский онлайн-сервис
+                        </div>
+                    </div>
+                </li>
+                <li class="about__items">
+                    <div class="about__block">
+                        <div class="about__block-top">До 2-х раз год</div>
+                        <div class="about__block-bottom">
+                            <img src="icons/lab.svg" alt="24/7">
+                            Лабораторные исследования
+                        </div>
+                    </div>
+                </li>
+                <li class="about__items">
+                    <div class="about__block">
+                        <div class="about__block-top">До 10 мин.</div>
+                        <div class="about__block-bottom">
+                            <img src="icons/butterfly.svg" alt="24/7">
+                            Упрощенная система страхования
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="conditions container">
+            <h2 class="conditions__title">Условия которые мы предоставим Вам</h2>
+            <div class="conditions-main">
+                <img src="img/doctors.png" alt="Doctors">
+                <div class="conditions-main_about">
+                    <h3 class="conditions-main_subtitle">20+</h3>
+                    <p class="conditions-main_text">Высококвалифицированных врачей к которым вы можете обращаться 24/7</p>
+                </div>
+            </div>
+            <div class="conditions-screen">
+                <div class="conditions-screen_img">
+                    <img src="img/screen.png" alt="Phone">
+                    <span></span>
+                </div>
+                <div class="conditions-screen_about">
+                    <div class="conditions-screen_subtitle">
+                        <img src="icons/star.svg" alt="Star">
+                        BestDoctor
+                    </div>
+                    <p class="conditions-screen_text">Доступ в один из лучших медицинских сервисов в России</p>
+                </div>
+            </div>
+            <div class="conditions-main conditions-main_running">
+                <img src="img/manrunning.png" alt="Person">
+                <div class="conditions-main_about">
+                    <h3 class="conditions-main_subtitle">600 000₽</h3>
+                    <p class="conditions-main_text">Сумма страховой защиты от нещастного случая</p>
+                </div>
+            </div>
+        </section>
+        <section class="services container">
+            <h2 class="services__title">У нас есть 2 пакета услуг</h2>
+            <div class="services-main">
+                <div class="services-pack">
+                    <div class="services-pack_top">Что мы предлогаем</div>
+                    <div class="services-pack_bottom">
+                        <ul class="services-pack_list">
+                            <li class="services-pack_items">
+                                круглосуточный колл-центр по консультациям терапевта или педиатра</li>
+                            <li class="services-pack_items">
+                                консультация терапевта или педиатра по телефону или по видеосвязи</li>
+                            <li class="services-pack_items">
+                                предварительная запись к выбранному узкому специалисту по телефону или через
+                                личный кабинет пациента</li>
+                            <li class="services-pack_items">
+                                консультация узкого специалиста по видеосвязи</li>
+                            <li class="services-pack_items">
+                                выбор лаборатории, запись на прием в лабораторию</li>
+                            <li class="services-pack_items">
+                                комплексный отчет о состоянии здоровья пациента от врача после получения
+                                результатов анализов от пациента</li>
+                            <li class="services-pack_items">
+                                никаких чат-ботов</li>
+                            <li class="services-pack_items">
+                                на связи 24/7 только высококвалифицированные врачи
+                            </li>
+                            <li class="services-pack_items">
+                                удобное приложение с простым интерфейсом BestDoctor</li>
+                            <li class="services-pack_items">
+                                общие (клинические) анализы
+                                <img src="icons/down.svg" alt="press down">
+                            </li>
+                            <li class="services-pack_items">
+                                ультразвуковые исследования
+                                <img src="icons/down.svg" alt="press down">
+                                <ul class="services-pack_dropdown">
+                                    <li class="services-pack_drop">УЗИ органов брюшной полости</li>
+                                    <li class="services-pack_drop">почек</li>
+                                    <li class="services-pack_drop">мочевого пузыря</li>
+                                    <li class="services-pack_drop">
+                                        УЗДГ сосудов (артерии и вены)
+                                        <span>одно исследование из списка в течение срока действия программы</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="services-pack_items">
+                                рентгенологические исследования
+                                <img src="icons/down.svg" alt="press down">
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="button button-download">
+                        Скачать полуную версию
+                        <img src="icons/download.svg" alt="Download">
+                    </button>
+                </div>
+                <div class="services-pack">
+                    <div class="services-pack_top">Что мы предлогаем</div>
+                    <div class="services-pack_bottom">
+                        <ul class="services-pack_list">
+                            <li class="services-pack_items">
+                                круглосуточный колл-центр по консультациям терапевта или педиатра</li>
+                            <li class="services-pack_items">
+                                консультация терапевта или педиатра по телефону или по видеосвязи</li>
+                            <li class="services-pack_items">
+                                предварительная запись к выбранному узкому специалисту по телефону или через
+                                личный кабинет пациента</li>
+                            <li class="services-pack_items">
+                                консультация узкого специалиста по видеосвязи</li>
+                            <li class="services-pack_items">
+                                выбор лаборатории, запись на прием в лабораторию</li>
+                            <li class="services-pack_items">
+                                комплексный отчет о состоянии здоровья пациента от врача после получения
+                                результатов анализов от пациента</li>
+                            <li class="services-pack_items">
+                                никаких чат-ботов</li>
+                            <li class="services-pack_items">
+                                на связи 24/7 только высококвалифицированные врачи
+                            </li>
+                            <li class="services-pack_items">
+                                удобное приложение с простым интерфейсом BestDoctor</li>
+                            <li class="services-pack_items">
+                                общие (клинические) анализы
+                                <img src="icons/down.svg" alt="press down">
+                            </li>
+                            <li class="services-pack_items">
+                                ультразвуковые исследования
+                                <img src="icons/down.svg" alt="press down">
+                                <ul class="services-pack_dropdown">
+                                    <li class="services-pack_drop">УЗИ органов брюшной полости</li>
+                                    <li class="services-pack_drop">почек</li>
+                                    <li class="services-pack_drop">мочевого пузыря</li>
+                                    <li class="services-pack_drop">
+                                        УЗДГ сосудов (артерии и вены)
+                                        <span>одно исследование из списка в течение срока действия программы</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="services-pack_items">
+                                рентгенологические исследования
+                                <img src="icons/down.svg" alt="press down">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services-pack">
+                    <div class="services-pack_top">Что мы предлогаем</div>
+                    <div class="services-pack_bottom">
+                        <ul class="services-pack_list">
+                            <li class="services-pack_items">
+                                круглосуточный колл-центр по консультациям терапевта или педиатра</li>
+                            <li class="services-pack_items">
+                                консультация терапевта или педиатра по телефону или по видеосвязи</li>
+                            <li class="services-pack_items">
+                                предварительная запись к выбранному узкому специалисту по телефону или через
+                                личный кабинет пациента</li>
+                            <li class="services-pack_items">
+                                консультация узкого специалиста по видеосвязи</li>
+                            <li class="services-pack_items">
+                                выбор лаборатории, запись на прием в лабораторию</li>
+                            <li class="services-pack_items">
+                                комплексный отчет о состоянии здоровья пациента от врача после получения
+                                результатов анализов от пациента</li>
+                            <li class="services-pack_items">
+                                никаких чат-ботов</li>
+                            <li class="services-pack_items">
+                                на связи 24/7 только высококвалифицированные врачи
+                            </li>
+                            <li class="services-pack_items">
+                                удобное приложение с простым интерфейсом BestDoctor</li>
+                            <li class="services-pack_items">
+                                общие (клинические) анализы
+                                <img src="icons/down.svg" alt="press down">
+                            </li>
+                            <li class="services-pack_items">
+                                ультразвуковые исследования
+                                <img src="icons/down.svg" alt="press down">
+                                <ul class="services-pack_dropdown">
+                                    <li class="services-pack_drop">УЗИ органов брюшной полости</li>
+                                    <li class="services-pack_drop">почек</li>
+                                    <li class="services-pack_drop">мочевого пузыря</li>
+                                    <li class="services-pack_drop">
+                                        УЗДГ сосудов (артерии и вены)
+                                        <span>одно исследование из списка в течение срока действия программы</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="services-pack_items">
+                                рентгенологические исследования
+                                <img src="icons/down.svg" alt="press down">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="questions container">
+            <h2 class="questions__title">Часто задаваемые вопросы</h2>
+            <ul class="questions__list">
+                <li class="questions__items">
+                    Сколько раз в год можно обратиться к терапевту или педиатру по данной программе?
+                    <img src="icons/down.svg" alt="">
+                </li>
+                <li class="questions__items">
+                    Сколько раз в год можно обратиться к узкому специалисту?
+                    <img src="icons/down.svg" alt="">
+                </li>
+                <li class="questions__items">
+                    Как получить консультацию врача?
+                    <img src="icons/down.svg" alt="">
+                </li>
+                <li class="questions__items">
+                    Какие врачи-специалисты представлены в сервисе, кроме терапевта и педиатра?
+                    <img src="icons/down.svg" alt="">
+                </li>
+                <li class="questions__items">
+                    Какие врачи-специалисты представлены в сервисе, кроме терапевта и педиатра?
+                    <img src="icons/down.svg" alt="">
+                </li>
+            </ul>
+        </section>
+        <section class="incident container">
+            <h2 class="incident__title">Что делать, если произошел страховой случай?</h2>
+            <div class="incident-list">
+                <div class="incident-list_box">
+                    <img src="icons/phonecall.svg" alt="Phone">
+                    <p>Позвоните нам</p>
+                </div>
+                <div class="incident-list_box">
+                    <img src="icons/note.svg" alt="Phone">
+                    <p>Заполните заявление</p>
+                </div>
+                <div class="incident-list_box">
+                    <img src="icons/yes.svg" alt="Phone">
+                    <p>Узнайте статус решения вопроса</p>
+                </div>
+                <div class="incident-list_box">
+                    <img src="icons/bag.svg" alt="Phone">
+                    <p>Полный архив всех условий</p>
+                </div>
+            </div>
+        </section>
+        <section class="details container">
+            <h2 class="questions__title">Уточнить детали</h2>
+            <div class="details__subtitle">Если вы не нашли ответа на свой вопрос, заполните эту форму, а мы как можно быстрее ответим вам.</div>
+            <div class="details__main">
+                <div class="details__form">
+                    <div class="details-form">
+                        <div class="details-form_one">
+                            <div class="details-form_one-box">1</div>
+                        </div>
+                        <div class="details-form_two">
+                            <div class="details-form_one-box">2</div>
+                        </div>
+                    </div>
+                    <form action="#" class="details__submit">
+                        <label for="name">
+                            ФИО*
+                            <input required type="text" name="name" id="" placeholder="Иванов Иван Иванович">
+                        </label>
+
+                        <label for="">
+                            Номер телефона*
+                            <input required type="number" name="" id="" placeholder="+7 (495) 453 33 41">
+                        </label>
+
+                        <label for="">
+                            Email*
+                            <input required type="email" name="" id="" placeholder="delolive@mail.ru">
+                        </label>
+
+                        <label for="">
+                            Регион*
+                            <button type="button" class="button button-city">
+                                Выберите город
+                                <img src="icons/down.svg" alt="down">
+                            </button>
+                        </label>
+                        <div class="details__button">
+                            <button type="button" class="button button-form">Очистить</button>
+                            <button type="button" class="button button-form">далее</button>
+                        </div>
+                    </form>
+                </div>
+                <img src="img/girldwithlupa.png" class="details__main-img" alt="Girl">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <ul class="footer__list">
+                    <li class="footer__items">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Новости</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Спецпредложения</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Бизнес предлодения</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Твое будущее</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Защита себя и близких</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Защита сотрудников</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__items-gold">Страховая документация</li>
+                    <li class="footer__items">
+                        <a href="#">Финансовые показатели</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="footer__items">
+                        <a href="#">Карта сайта</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <p>125252, г. Москва,<br>
+                    ул. Зорге, д. 22 А, офис 811</p>
+                    <p>График работы главного офиса
+                    125252, г. Москва, <br>
+                    ул. Зорге, д. 22 А, офис 811 <br>
+                    Пн. - Чт. с 9:00 до 18:00 <br>
+                    Пт. с 9:00 до 16:45 <br>
+                    Сб-Вс выходной</p>
+                    <button type="button" class="button button-footer">Как добраться</button>
+                </ul>
+                <ul class="footer__list">
+                    <p>Адрес для почтовых отправлений: <br>
+                    125252, г. Москва, а/я 28</p>
+                    <div class="footer__list-tel">
+                        тел.:
+                        <a href="tel:+74959671301" class="footer__list-tel">+7 495 967 13 01</a>
+                    </div>
+                    <div class="footer__mail">
+                        Email для связи с нами
+                        <a href="mailto:info@prolife.ru">info@prolife.ru</a>
+                    </div>
+                    <div class="footer__icons">
+                        <a href="" class="footer__icons-link">
+                            <img src="icons/vk.svg" alt="VK">
+                        </a>
+                        <a href="" class="footer__icons-link">
+                            <img src="icons/telegram.svg" alt="Telegram">
+                        </a>
+                        <a href="" class="footer__icons-link">
+                            <img src="icons/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="" class="footer__icons-link">
+                            <img src="icons/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>© 1998 – 2021 ООО СК "ДЕЛО ЖИЗНИ". Все права защищены. Полное или частичное копирование любых материалов сайта запрещено. ООО СК «ДЕЛО ЖИЗНИ» осуществляет свою деятельность на основании лицензий ЦБ РФ:СЖ № 3870 от 24.03.2017СЛ №3870 от 24.03.2017 Органом, осуществляющим полномочия по контролю и надзору за ООО СК «ДЕЛО ЖИЗНИ» является Банк России. Адрес официального сайта Банк России - www.cbr.ru.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
